@@ -13,6 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //singletone
+        print(Settings.shared.volumeLevel)
+        Settings.shared.volumeLevel = 3.0
+        print(Settings.shared.volumeLevel)
+    
+        
     }
 
 
