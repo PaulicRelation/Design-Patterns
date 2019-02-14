@@ -15,6 +15,7 @@
 		E97232892215CF7F0017BE0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97232872215CF7F0017BE0E /* LaunchScreen.storyboard */; };
 		E97232942215CF7F0017BE0E /* Design_PatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97232932215CF7F0017BE0E /* Design_PatternsTests.swift */; };
 		E972329F2215CF7F0017BE0E /* Design_PatternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E972329E2215CF7F0017BE0E /* Design_PatternsUITests.swift */; };
+		E97232AD2215D0090017BE0E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97232AC2215D0090017BE0E /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E972329A2215CF7F0017BE0E /* Design-PatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Design-PatternsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E972329E2215CF7F0017BE0E /* Design_PatternsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_PatternsUITests.swift; sourceTree = "<group>"; };
 		E97232A02215CF7F0017BE0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E97232AC2215D0090017BE0E /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E97232872215CF7F0017BE0E /* LaunchScreen.storyboard */,
 				E972328A2215CF7F0017BE0E /* Info.plist */,
 				E97232822215CF7E0017BE0E /* Design_Patterns.xcdatamodeld */,
+				E97232AE2215D0160017BE0E /* Singletone */,
 			);
 			path = "Design-Patterns";
 			sourceTree = "<group>";
@@ -126,6 +129,14 @@
 				E97232A02215CF7F0017BE0E /* Info.plist */,
 			);
 			path = "Design-PatternsUITests";
+			sourceTree = "<group>";
+		};
+		E97232AE2215D0160017BE0E /* Singletone */ = {
+			isa = PBXGroup;
+			children = (
+				E97232AC2215D0090017BE0E /* Settings.swift */,
+			);
+			path = Singletone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				E972327E2215CF7E0017BE0E /* ViewController.swift in Sources */,
 				E972327C2215CF7E0017BE0E /* AppDelegate.swift in Sources */,
+				E97232AD2215D0090017BE0E /* Settings.swift in Sources */,
 				E97232842215CF7E0017BE0E /* Design_Patterns.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
