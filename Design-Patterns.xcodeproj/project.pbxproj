@@ -16,6 +16,11 @@
 		E97232942215CF7F0017BE0E /* Design_PatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97232932215CF7F0017BE0E /* Design_PatternsTests.swift */; };
 		E972329F2215CF7F0017BE0E /* Design_PatternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E972329E2215CF7F0017BE0E /* Design_PatternsUITests.swift */; };
 		E97232AD2215D0090017BE0E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97232AC2215D0090017BE0E /* Settings.swift */; };
+		E97232B32215E14B0017BE0E /* Ecsercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97232B22215E14B0017BE0E /* Ecsercise.swift */; };
+		E97232B52215E2040017BE0E /* Jumping.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97232B42215E2040017BE0E /* Jumping.swift */; };
+		E97232B72215E3FB0017BE0E /* Squarts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97232B62215E3FB0017BE0E /* Squarts.swift */; };
+		E97232B92215E5AD0017BE0E /* ExercisesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97232B82215E5AD0017BE0E /* ExercisesFactory.swift */; };
+		E97232BB2215EF480017BE0E /* SwingPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97232BA2215EF480017BE0E /* SwingPress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		E972329E2215CF7F0017BE0E /* Design_PatternsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_PatternsUITests.swift; sourceTree = "<group>"; };
 		E97232A02215CF7F0017BE0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E97232AC2215D0090017BE0E /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		E97232B22215E14B0017BE0E /* Ecsercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ecsercise.swift; sourceTree = "<group>"; };
+		E97232B42215E2040017BE0E /* Jumping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jumping.swift; sourceTree = "<group>"; };
+		E97232B62215E3FB0017BE0E /* Squarts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squarts.swift; sourceTree = "<group>"; };
+		E97232B82215E5AD0017BE0E /* ExercisesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesFactory.swift; sourceTree = "<group>"; };
+		E97232BA2215EF480017BE0E /* SwingPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingPress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				E972327B2215CF7E0017BE0E /* AppDelegate.swift */,
+				E97232AF2215E09C0017BE0E /* Factory-method */,
 				E972327D2215CF7E0017BE0E /* ViewController.swift */,
 				E972327F2215CF7E0017BE0E /* Main.storyboard */,
 				E97232852215CF7F0017BE0E /* Assets.xcassets */,
@@ -137,6 +148,18 @@
 				E97232AC2215D0090017BE0E /* Settings.swift */,
 			);
 			path = Singletone;
+			sourceTree = "<group>";
+		};
+		E97232AF2215E09C0017BE0E /* Factory-method */ = {
+			isa = PBXGroup;
+			children = (
+				E97232B22215E14B0017BE0E /* Ecsercise.swift */,
+				E97232B42215E2040017BE0E /* Jumping.swift */,
+				E97232B62215E3FB0017BE0E /* Squarts.swift */,
+				E97232B82215E5AD0017BE0E /* ExercisesFactory.swift */,
+				E97232BA2215EF480017BE0E /* SwingPress.swift */,
+			);
+			path = "Factory-method";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,8 +295,13 @@
 			files = (
 				E972327E2215CF7E0017BE0E /* ViewController.swift in Sources */,
 				E972327C2215CF7E0017BE0E /* AppDelegate.swift in Sources */,
+				E97232B52215E2040017BE0E /* Jumping.swift in Sources */,
+				E97232B72215E3FB0017BE0E /* Squarts.swift in Sources */,
+				E97232B92215E5AD0017BE0E /* ExercisesFactory.swift in Sources */,
 				E97232AD2215D0090017BE0E /* Settings.swift in Sources */,
+				E97232B32215E14B0017BE0E /* Ecsercise.swift in Sources */,
 				E97232842215CF7E0017BE0E /* Design_Patterns.xcdatamodeld in Sources */,
+				E97232BB2215EF480017BE0E /* SwingPress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
